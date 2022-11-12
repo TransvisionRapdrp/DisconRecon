@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_total"
+        android:title="@string/total" />
+    <item
+        android:id="@+id/nav_disconnected"
+        android:title="@string/disconnected" />
+    <item
+        android:id="@+id/nav_remaining"
+        android:title="@string/remaining" />
+</menu>

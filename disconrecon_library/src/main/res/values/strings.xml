@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">disconrecon_library</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="semi_colon">:</string>
+    <string name="login_txt">User Login</string>
+    <string name="login_user">User ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="company_details">© 2019 Transvision Software &amp; Data Solutions Pvt Ltd.\n
+        All Rights Reserved\n<u>www.transvisionsolutions.com</u></string>
+
+    <string-array name="user_role">
+        <item>SELECT</item>
+        <item>MR</item>
+        <item>AEE</item>
+    </string-array>
+    <string-array name="remark">
+        <item>SELECT</item>
+        <item>By Fuse</item>
+        <item>By Pole</item>
+    </string-array>
+    <string-array name="printer">
+        <item>SELECT</item>
+        <item>GPT</item>
+        <item>ALG</item>
+        <item>EXEL</item>
+    </string-array>
+    <string name="total">Total</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="reconnected">Reconnected</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="connected">Connected</string>
+    <string name="remaining">Remaining</string>
+    <string name="date">Date:</string>
+    <string name="disconnection">Disconnection</string>
+    <string name="reconnection">Reconnection</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="feeder_reading">Feeder Reading</string>
+    <string name="tc_reading">TC Reading</string>
+    <string name="dtc_mapping">DTC Mapping</string>
+    <string name="recon_memo">Reconnection Memo</string>
+    <string name="collection">Collection</string>
+    <string name="rupee">\u20B9</string>
+</resources>

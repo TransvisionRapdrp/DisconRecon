@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lin_snackbar"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Account ID"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:text="@string/semi_colon"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_account_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:text="@string/semi_colon"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_cons_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text16"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="@dimen/text16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Arrears"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:text="@string/semi_colon"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_arrears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:text="@string/semi_colon"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_discon_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="PrevRead"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:text="@string/semi_colon"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_prev_read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="CurrRead"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:text="@string/semi_colon"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_curr_read"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp30"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_bg"
+            android:inputType="number"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Remark"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:text="@string/semi_colon"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp_remark"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp30"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_bg"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Comments"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9"
+            android:text="@string/semi_colon"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_comments"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp30"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_bg"
+            android:maxLines="5"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+    </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/button_layout" />
+
+</LinearLayout>

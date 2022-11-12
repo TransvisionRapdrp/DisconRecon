@@ -1,0 +1,3 @@
+include ':nonrapdrp_disconrecon_test'
+include ':disconrecon', ':disconrecon_test', ':disconrecon_library'
+rootProject.name='DisconRecon'

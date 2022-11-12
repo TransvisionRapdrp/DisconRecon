@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/lin_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_toolbar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp15"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="@string/date"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp30"
+                android:layout_weight="1"
+                android:text="Select Date"
+                android:background="@drawable/spinner_bg"
+                android:gravity="center"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txt_calender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:layout_marginStart="@dimen/dp20"
+                android:gravity="center"
+                android:drawableStart="@drawable/calendar"/>
+
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/sp_feeder"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="@dimen/dp30"
+            android:layout_margin="@dimen/dp10"
+            android:background="@drawable/spinner_bg"/>
+        <ImageView
+            android:id="@+id/img_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nodata"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp5"
+            android:layout_marginEnd="@dimen/dp5"
+            android:background="@color/light_gray" />
+    </LinearLayout>
+</RelativeLayout>
